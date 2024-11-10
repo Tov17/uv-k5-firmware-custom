@@ -4,17 +4,17 @@
 # 1 = enable
 
 # ---- STOCK QUANSHENG FERATURES ----
-ENABLE_FMRADIO                	?= 0
+ENABLE_FMRADIO                	?= 1
 ENABLE_UART                   	?= 1
 ENABLE_AIRCOPY                	?= 1
 ENABLE_NOAA                   	?= 0
 ENABLE_VOICE                  	?= 0
-ENABLE_VOX                    	?= 1
+ENABLE_VOX                    	?= 0
 ENABLE_ALARM                  	?= 0
-ENABLE_TX1750                 	?= 1
+ENABLE_TX1750                 	?= 0
 ENABLE_PWRON_PASSWORD         	?= 0
 ENABLE_DTMF_CALLING           	?= 0
-ENABLE_FLASHLIGHT             	?= 1
+ENABLE_FLASHLIGHT             	?= 0
 
 # ---- CUSTOM MODS ----
 ENABLE_SPECTRUM               	?= 1
@@ -27,7 +27,7 @@ ENABLE_TX_WHEN_AM             	?= 0
 ENABLE_F_CAL_MENU             	?= 0
 ENABLE_CTCSS_TAIL_PHASE_SHIFT 	?= 0
 ENABLE_BOOT_BEEPS             	?= 0
-ENABLE_SHOW_CHARGE_LEVEL      	?= 0
+ENABLE_SHOW_CHARGE_LEVEL      	?= 1
 ENABLE_REVERSE_BAT_SYMBOL     	?= 0
 ENABLE_NO_CODE_SCAN_TIMEOUT   	?= 1
 ENABLE_AM_FIX                 	?= 1
@@ -43,14 +43,14 @@ ENABLE_SCAN_RANGES            	?= 1
 ENABLE_FEAT_F4HWN             	?= 1
 ENABLE_FEAT_F4HWN_SCREENSHOT  	?= 0
 ENABLE_FEAT_F4HWN_SPECTRUM    	?= 1
-ENABLE_FEAT_F4HWN_RX_TX_TIMER   ?= 1
+ENABLE_FEAT_F4HWN_RX_TX_TIMER   ?= 0
 ENABLE_FEAT_F4HWN_CHARGING_C    ?= 1
 ENABLE_FEAT_F4HWN_SLEEP         ?= 1
-ENABLE_FEAT_F4HWN_RESTORE_SCAN  ?= 1
-ENABLE_FEAT_F4HWN_NARROWER      ?= 1
-ENABLE_FEAT_F4HWN_VOL           ?= 0
+ENABLE_FEAT_F4HWN_RESTORE_SCAN  ?= 0
+ENABLE_FEAT_F4HWN_NARROWER      ?= 0
+ENABLE_FEAT_F4HWN_VOL           ?= 1
 ENABLE_FEAT_F4HWN_RESET_CHANNEL ?= 0
-ENABLE_FEAT_F4HWN_PMR           ?= 0
+ENABLE_FEAT_F4HWN_PMR           ?= 1
 ENABLE_FEAT_F4HWN_GMRS_FRS_MURS	?= 0
 ENABLE_FEAT_F4HWN_CA         	?= 1
 
